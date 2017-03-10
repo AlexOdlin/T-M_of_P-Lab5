@@ -1,12 +1,12 @@
 #include "catch.hpp"
 
-int sum(int a,int b){
+int foo(int a,int b){
 
   return a+b;
 }
 
-TEST_CASE("sum","[sum]"){
-  REQUIRE( sum(1,2) == 3 );
-  REQUIRE( sum(2,3) == 4 );
+TEST_CASE("foo","[foo]"){
+  REQUIRE( foo(1,2) == 3 );
+  REQUIRE( foo(2,3) == 4 );
   
 }
