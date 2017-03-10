@@ -7,6 +7,6 @@ int foo(int a,int b){
 
 TEST_CASE("foo","[foo]"){
   REQUIRE( foo(1,2) == 3 );
-  REQUIRE( foo(2,3) == 4 );
+  REQUIRE_FALSE( foo(2,3) == 4 );
   
 }
