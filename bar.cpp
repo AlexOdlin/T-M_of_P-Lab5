@@ -1,4 +1,4 @@
-#include "catch.hpp"
+#include "<catch.hpp>"
 
 void sum(int a,b){
 
