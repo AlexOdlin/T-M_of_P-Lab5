@@ -1,6 +1,6 @@
 #include "catch.hpp"
 
-void sum(int a,b){
+int sum(int a,b){
 
   return a+b;
 }
