@@ -1,6 +1,6 @@
 language: cpp
 
 script:
-- Cmake -H. -B_build
-- Cmake --build _build
+- cmake -H. -B_build
+- cmake --build _build
 - ./build/test -su "[foo.cpp]"
