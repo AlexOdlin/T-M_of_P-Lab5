@@ -3,4 +3,4 @@ language: cpp
 script:
 - cmake -H. -B_build
 - cmake --build _build
-- ./build/test -su "[foo.cpp]"
+- ./_build/tests -s 
